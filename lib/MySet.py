@@ -15,7 +15,7 @@ class MySet:
         return f'MySet: {{{",".join(set_list)}}}'
 
     def add(self, value):
-        self.dictionary[value] = True # Add a value as a key on the Dictionary
+        self.dictionary[value] = True 
         return self
 
     def delete(self, value):
